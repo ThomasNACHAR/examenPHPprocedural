@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="login-container">
-        <form action="routers/?route=login" method="post">
+        <form action="?route=login" method="post">
             <h2>Se connecter</h2>
             <label for="username">Email:</label>
             <input type="email" id="username" name="username" required>
