@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         if ($verify) {
             setcookie('username', $_POST["username"], time() + 900, "/");
-            $_SESSION["username"] = $_COOKIE["username"];
+            $_SESSION["username"] = $_POST["username"];
             header("Location: index.php");  
         } else echo "Identifiants incorrects ! <br>";
     } else echo "Veuillez remplir tous les champs et/ou mettre des mots de passe identiques ! <br>";
