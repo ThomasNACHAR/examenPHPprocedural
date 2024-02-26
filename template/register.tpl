@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="register-container">
-        <form action="routers/?route=register" method="post">
+        <form action="?route=register" method="post">
             <h2>Inscription</h2>
             <label for="username">Email:</label>
             <input type="email" id="username" name="username" required>
