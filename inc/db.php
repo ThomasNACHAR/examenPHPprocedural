@@ -1,3 +1,6 @@
 <?php
-// Votre code de connexion à la DB
+$dsn = "mysql:host=localhost;dbname=examphp";
+$username = "root";
+$password = "root";
+$pdo = new PDO($dsn, $username, $password);
 ?>

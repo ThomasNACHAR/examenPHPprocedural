@@ -13,8 +13,8 @@
         </nav>
         <h2>Liste des fichiers</h2>
         <ul>
-        {foreach $fichiers as $fichier} 
-            <li><a href="upload/$fichier">$fichier</a></li>
+        {foreach $fichiers as $fichier}
+            <li><a href="upload/{$fichier}">{$fichier}</a></li>
           {foreachelse}
             Pas de fichier
           {/foreach}
